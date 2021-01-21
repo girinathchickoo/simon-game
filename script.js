@@ -32,7 +32,7 @@ if(gamePattern[check]===buttonClicked[check]){
 	if( buttonClicked.length===gamePattern.length ){
 		level++;
 		
-		setTimeout(function(){nextSequence()},1000);
+		setTimeout(function(){nextSequence()},800);
 	}
 	
 }else{
